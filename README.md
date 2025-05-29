@@ -34,13 +34,19 @@ Link do dataset original no Kaggle: [Amazon-fine-foods-reviews](https://www.kagg
 
 ### 1\. Grfico de Barras: Quantidade de Comentrios por Score
 
+![barra](plots\barras.png)
+
 Este grfico mostra a distribuio das avaliaes de pratos finos na Amazon, categorizadas por notas de 1 a 5 estrelas e a frequncia de comentrios para cada nota. A maioria expressiva dos usurios (63,88%) atribuiu a nota mxima de 5 estrelas, indicando alta satisfao. Uma parcela considervel (14,19%) deu 4 estrelas, enquanto avaliaes neutras (3 estrelas) representam 7,50% do total. Avaliaes negativas (2 e 1 estrela) correspondem a 5,24% e 9,19%, respectivamente.
 
 ### 2\. Histograma: Distribuio de Sentimentos
 
+![hist](plots\histograma.png)
+
 A anlise de sentimentos, realizada com a ferramenta TextBlob, revelou uma polaridade majoritariamente positiva nos comentrios, mesmo em avaliaes com notas mais baixas. A polaridade se concentra na faixa de 0 a 0.4, sugerindo um sentimento favorvel, mas no intenso. Isso pode indicar que a insatisfao em avaliaes negativas est relacionada a aspectos especficos, e no a uma percepo geral negativa do produto. Outliers na coluna 'Sentiment' foram removidos usando o mtodo IQR para esta visualizao.
 
 ### 3\. Grfico de Disperso: Caracteres por Score
+
+![scatter](plots\dispersao.png)
 
 A mdia de caracteres por comentrio  de 355, e a mdia de palavras  de 80. O grfico de disperso, que relaciona a quantidade de caracteres ao score da avaliao, indica uma tendncia de comentrios mais extensos em avaliaes positivas (scores mais altos). Clientes satisfeitos tendem a detalhar mais suas experincias, enquanto avaliaes negativas so geralmente mais concisas.
 
