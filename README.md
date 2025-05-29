@@ -38,7 +38,7 @@ Este gráfico mostra a distribuição das avaliações de pratos finos na Amazon
 
 ### 2\. Histograma: Distribuição de Sentimentos
 
-![hist](plots/histograma.png)
+![hist](plots/hitograma.png)
 
 A análise de sentimentos, realizada com a ferramenta TextBlob, revelou uma polaridade majoritariamente positiva nos comentários, mesmo em avaliações com notas mais baixas. A polaridade se concentra na faixa de 0 a 0.4, sugerindo um sentimento favorável, mas não intenso. Isso pode indicar que a insatisfação em avaliações negativas está relacionada a aspectos específicos, e não a uma percepção geral negativa do produto. Outliers na coluna 'Sentiment' foram removidos usando o método IQR para esta visualização.
 
