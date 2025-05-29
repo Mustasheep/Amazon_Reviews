@@ -48,3 +48,8 @@ A análise de sentimentos, realizada com a ferramenta TextBlob, revelou uma pola
 
 A média de caracteres por comentário é de 355, e a média de palavras é de 80. O gráfico de dispersão, que relaciona a quantidade de caracteres ao score da avaliação, indica uma tendência de comentários mais extensos em avaliações positivas (scores mais altos). Clientes satisfeitos tendem a detalhar mais suas experiências, enquanto avaliações negativas são geralmente mais concisas.
 
+# Conclusão
+
+O projeto investigou um dataset composto por aproximadamente 560 mil avaliações de clientes, distribuídas em 4 categorias distintas. A variável "Score", que representa a classificação atribuída pelo cliente, emergiu como o principal atributo numérico para a análise. A caracterização do conteúdo textual dos comentários revelou uma extensão média de 80 palavras e 355 caracteres, indicando um nível de detalhamento considerável nas opiniões expressas pelos usuários.
+
+Em suma, este projeto demonstra a relevância do dataset para aplicações em Processamento de Linguagem Natural (PLN), particularmente na análise de sentimentos e mineração de opiniões. A riqueza de informações contidas nos comentários dos clientes representa uma fonte valiosa para o desenvolvimento de projetos futuros, visando aprimorar a compreensão das necessidades e expectativas dos consumidores e otimizar a experiência do cliente.
